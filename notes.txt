@@ -1,0 +1,16 @@
+- save resource data for recepient in localStorage
+- register resource data for recepient at the server/redis
+- save resource data for sender in localStorage
+- register resource data for sender at the server/redis
+- search for resource data for recepient from localStorage before sending msg
+    - getResourceData(ngModule,resourceName):CdObjId
+- setRecepient(ngModule,resourceName)
+- confirm recepient data is ok
+- confirm it is possible to get recepient details at the server from redis
+- setSender()
+- sendMsg(payLoad)
+- confirm payLoad reception
+- send relay confirmation to sender
+- send to recepient
+
+
